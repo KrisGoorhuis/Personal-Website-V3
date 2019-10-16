@@ -89,7 +89,7 @@ let Photography = () => {
                         className="photo_carousel_control_left"
                         onClick={ () => handlePhotoCarouselClick(-1) }
                      >
-                        <img src={upArrow} style={{transform: "rotate(-90deg)"}} />
+                        <img src={upArrow} style={{transform: "rotate(-90deg)"}} alt="left arrow" />
                      </div>
                      <img 
                         className="enlarged_photo"
@@ -101,7 +101,7 @@ let Photography = () => {
                         className="photo_carousel_control_right"
                         onClick={ () => handlePhotoCarouselClick(1) }
                      >
-                        <img src={upArrow} style={{transform: "rotate(90deg)"}} />
+                        <img src={upArrow} style={{transform: "rotate(90deg)"}} alt="right arrow"/>
                      </div>
                   </div>
                   <div 

@@ -95,16 +95,18 @@ let IndividualProject = (props) => {
 
 
 let Projects = (props) => {
+   let [projectsLoading, setProjectsLoading] = useState(true)
+
    AOS.init();
 
    return (
       <React.Fragment>
-
-         {/* <div className="projects_head">
-            Personal projects live on sleepy servers. <br></br>
-            Please give them time to wake up if you want to visit.
-         </div> */}
-         <div className="projects_container">
+         {/* The onload here is what's causing lower projects to flicker onto screen. */}
+         {
+            projectsLoading &&
+            <div className="spinner">Stand by... </div>
+         }
+         <div className="projects_container" onLoad={() => setProjectsLoading(false)}>
             <IndividualProject
                title="Chat App"
                className="individual_project_container"

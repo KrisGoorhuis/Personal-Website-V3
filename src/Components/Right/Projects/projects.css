@@ -126,3 +126,26 @@
    max-width: 500px;
    margin-bottom: 40px;
 }
+
+
+.spinner {
+   color: rgba(200, 200, 200, .7);
+   text-align: center;
+
+   /* display: inline-block;
+   -webkit-animation: spin 1s linear infinite;
+   animation: spin 1s linear infinite;
+   width: 100px;
+   color: rgba(200, 200, 200, .7);
+   transform-origin: 50% 50%; */
+}
+/* 
+@-webkit-keyframes spin {
+   0% { -webkit-transform: rotate(0deg); }
+   100% { -webkit-transform: rotate(360deg); }
+ }
+ 
+ @keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg); }
+ } */

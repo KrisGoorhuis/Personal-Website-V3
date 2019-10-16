@@ -89,7 +89,7 @@ let Left = () => {
                className="carousel_button noselect"
                onClick={() => handlePageSet(-1)}
             >
-               <img src={upArrow} style={{transform: "rotate(-90deg)"}} />
+               <img src={upArrow} style={{transform: "rotate(-90deg)"}} alt="left arrow" />
                {buttonText[page - 1]}
             </div>
             <div
@@ -97,7 +97,7 @@ let Left = () => {
                onClick={() => handlePageSet(1)}
             >
                {buttonText[page + 1]} 
-               <img src={upArrow} style={{transform: "rotate(90deg)"}} />
+               <img src={upArrow} style={{transform: "rotate(90deg)"}} alt="right arrow" />
             </div>
          </div>
       </div>

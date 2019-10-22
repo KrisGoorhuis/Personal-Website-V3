@@ -18,15 +18,15 @@ import evening from 'Assets/Images/Photos/evening.jpg'
 import forest from 'Assets/Images/Photos/forest.jpg'
 import mist from 'Assets/Images/Photos/mist.jpg'
 import moto from 'Assets/Images/Photos/moto.jpg'
-import shells from 'Assets/Images/Photos/shells.jpg'
+// import shells from 'Assets/Images/Photos/shells.jpg'
 import spider from 'Assets/Images/Photos/spider.jpg'
 import sunset from 'Assets/Images/Photos/sunset.jpg'
 import up from 'Assets/Images/Photos/up.jpg'
 
 
 let photoArray = [ice, beer, rain, lithia,
-   spider, green, bean, up, evening, forest, mist, moto, shells, 
-     bear, sunset, cheese, snow]
+   spider, green, bean, up, evening, forest, 
+   mist, moto, bear, sunset, cheese, snow]
 
 let Photography = () => {
    let [enlargedPhoto, setEnlargedPhoto] = useState(null)

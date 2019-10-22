@@ -19,7 +19,7 @@ document.onscroll = () => {
 
 let scrollToTop = () => {
    document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // 
+   document.documentElement.scrollTop = 0; // 
 }
 
 let Right = () => {

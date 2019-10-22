@@ -17,6 +17,7 @@ import unityGame from 'Assets/Images/unity-game.png'
 import unityGameSmall from 'Assets/Images/unity-game-small.jpg'
 import minesweeper from 'Assets/Images/minesweeper.png'
 import minesweeperSmall from 'Assets/Images/minesweeper-small.jpg'
+import movieBuddy from 'Assets/Images/movie-buddy.png'
 
 import githubMark from 'Assets/Images/github-mark.png'
 import newWindowIcon from 'Assets/Images/open-link-white.png'
@@ -107,6 +108,16 @@ let Projects = (props) => {
             <div className="spinner">Stand by... </div>
          }
          <div className="projects_container" onLoad={() => setProjectsLoading(false)}>
+            
+            <IndividualProject 
+               title="Movie Buddy (maybe)"
+               className="individual_project_container"
+               description="Movie suggestion engine. Uses React & Redux to wire up The Movie Database's API, run user selections through a suggestion algorithm, and display them."
+               imageLarge={movieBuddy}
+               imageSmall={movieBuddy}
+               githubLink="https://github.com/KrisGoorhuis/movie-buddy"
+               liveSite="https://kg-movie-app.herokuapp.com/"
+            />
             <IndividualProject
                title="Chat App"
                className="individual_project_container"

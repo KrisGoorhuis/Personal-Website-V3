@@ -18,6 +18,7 @@ import unityGameSmall from 'Assets/Images/unity-game-small.jpg'
 import minesweeper from 'Assets/Images/minesweeper.png'
 import minesweeperSmall from 'Assets/Images/minesweeper-small.jpg'
 import movieBuddy from 'Assets/Images/movie-buddy.png'
+import gameOfLife from 'Assets/Images/game-of-life.png'
 
 import githubMark from 'Assets/Images/github-mark.png'
 import newWindowIcon from 'Assets/Images/open-link-white.png'
@@ -109,6 +110,15 @@ let Projects = (props) => {
          }
          <div className="projects_container" onLoad={() => setProjectsLoading(false)}>
             
+            <IndividualProject 
+               title="Game of Life"
+               className="individual_project_container"
+               description="John Conway's Game of Life. Click tiles to generate life, watch it age, and fiddle with the parameters of its existence. React & Redux."
+               imageLarge={gameOfLife}
+               imageSmall={gameOfLife}
+               githubLink="https://github.com/KrisGoorhuis/game-of-life-redux"
+               liveSite="https://kg-game-of-life-redux.herokuapp.com/"
+            />
             <IndividualProject 
                title="Movie Buddy (maybe)"
                className="individual_project_container"

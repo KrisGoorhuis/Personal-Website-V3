@@ -113,7 +113,7 @@ let Projects = (props) => {
             <IndividualProject 
                title="Game of Life"
                className="individual_project_container"
-               description="John Conway's Game of Life. Click tiles to generate life, watch it age, and fiddle with the parameters of its existence. React & Redux."
+               description="John Conway's Game of Life. Click tiles to generate life, watch it age, and fiddle with the parameters of its existence. React & Redux, semantic HTML, complex state flow."
                imageLarge={gameOfLife}
                imageSmall={gameOfLife}
                githubLink="https://github.com/KrisGoorhuis/game-of-life-redux"

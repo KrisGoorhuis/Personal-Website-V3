@@ -88,6 +88,15 @@ let IndividualProject = (props) => {
             <div className="bottom_container">
                <h2 className="project_title">{props.title}</h2>
                <p className="project_description">{props.description}</p>
+               <ul className="project_technologies_list">
+                  //
+                  {
+                     props.technologies &&
+                     props.technologies.map( (tech, i) => 
+                        <li className="project_technology_listing code" key={i}><code>{tech}</code></li>
+                     )
+                  }
+               </ul>
             </div>
          </div>
       </React.Fragment>
@@ -113,20 +122,22 @@ let Projects = (props) => {
             <IndividualProject 
                title="Game of Life"
                className="individual_project_container"
-               description="John Conway's Game of Life. Click tiles to generate life, watch it age, and fiddle with the parameters of its existence. React & Redux, semantic HTML, complex state flow."
+               description="John Conway's Game of Life. Click tiles to generate life, watch it age, and fiddle with the parameters of its existence. Complex state flow and an intentful eye on semantic HTML."
                imageLarge={gameOfLife}
                imageSmall={gameOfLife}
                githubLink="https://github.com/KrisGoorhuis/game-of-life-redux"
                liveSite="https://kg-game-of-life-redux.herokuapp.com/"
+               technologies={['React.js', 'Redux', 'Semantic HTML']}
             />
             <IndividualProject 
                title="Movie Buddy (maybe)"
                className="individual_project_container"
-               description="Movie suggestion engine. Uses React & Redux to wire up The Movie Database's API, run user selections through a suggestion algorithm, and display them."
+               description="Movie suggestion engine. Uses React & Redux to wire up The Movie Database's API, run user selections through a suggestion algorithm, and display recommendations."
                imageLarge={movieBuddy}
                imageSmall={movieBuddy}
                githubLink="https://github.com/KrisGoorhuis/movie-buddy"
                liveSite="https://kg-movie-app.herokuapp.com/"
+               technologies={['React.js', 'Redux', 'API', 'AJAX']}
             />
             <IndividualProject
                title="Chat App"
@@ -136,6 +147,7 @@ let Projects = (props) => {
                imageSmall={chatAppSmall}
                githubLink="https://github.com/KrisGoorhuis/chat-app"
                liveSite="https://krisg-chat-app.herokuapp.com/"
+               technologies={['React.js', 'REST', 'Node.js', 'MongoDB']}
             />
             <IndividualProject
                title="Beer Style Guide"
@@ -145,6 +157,7 @@ let Projects = (props) => {
                imageSmall={beerBrowserSmall}
                githubLink="https://github.com/KrisGoorhuis/beer-browser"
                liveSite="https://beer-style-guide.herokuapp.com/"
+               technologies={['React.js', 'Babel', 'Webpack', 'API']}
             />
             <IndividualProject
                title="Secret Unity Things"
@@ -152,6 +165,7 @@ let Projects = (props) => {
                description="Why my public GitHub repos are relatively stale. This private one is where I've been playing with C# and the Unity engine when time allows."
                imageLarge={unityGame}
                imageSmall={unityGameSmall}
+               technologies={['C#', 'Unity']}
             />
             <IndividualProject
                title="Temperature Data Visualization"
@@ -161,6 +175,7 @@ let Projects = (props) => {
                imageSmall={dataVizSmall}
                githubLink="https://github.com/KrisGoorhuis/data-visualization-temperature"
                liveSite="https://krisg-data-visualization-temp.herokuapp.com/"
+               technologies={['D3.js']}
             />
 
             <IndividualProject
@@ -171,6 +186,7 @@ let Projects = (props) => {
                imageSmall={eddyCopySmall}
                githubLink="https://github.com/KrisGoorhuis/the-eddy-copy"
                liveSite="https://krisg-theeddy-practicecopy.herokuapp.com/"
+               technologies={['SASS']}
             />
             <IndividualProject
                title="Minesweeper"
@@ -180,7 +196,7 @@ let Projects = (props) => {
                imageSmall={minesweeperSmall}
                githubLink="https://github.com/KrisGoorhuis/WPF-Minesweeper"
                liveSite=""
-
+               technologies={['C#', 'WPF']}
             />
             <IndividualProject
                title="Snake Game"
@@ -190,6 +206,7 @@ let Projects = (props) => {
                imageSmall={snakeGameSmall}
                githubLink="https://github.com/KrisGoorhuis/snake-game"
                liveSite="https://krisg-snake-game.herokuapp.com/"
+               technologies={['Javascript', 'HTML Canvas']}
             />
          </div>
       </React.Fragment>

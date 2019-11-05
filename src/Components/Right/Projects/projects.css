@@ -77,10 +77,6 @@
    color: var(--red);
 }
 
-.project_description {
-   color: var(--white);
-}
-
 .project_images {
    margin: 10px;
    /* margin-top: 10px; */
@@ -120,11 +116,30 @@
    filter: blur(10px);
 }
 
+.project_technologies_list {
+   list-style-type: none;
+   display: flex;
+   margin-top: 0px;
+   margin-bottom: 25px;
+   align-items: center;
+   color: white;
+   font-size: 14px;
+}
+
+.project_technology_listing {
+   border-radius: 999px;
+   padding: 8px;
+   color: rgba(255, 255, 255, .8);
+   /* box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, .1); */
+   /* margin: 0px 5px 5px 0px; */
+}
+
 .project_description {
+   color: var(--white);
    margin-top: 10px;
    font-size: 18px;
    max-width: 500px;
-   margin-bottom: 40px;
+   margin-bottom: 5px;
 }
 
 

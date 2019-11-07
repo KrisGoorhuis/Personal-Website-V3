@@ -142,7 +142,7 @@ let Projects = (props) => {
             <IndividualProject
                title="Chat App"
                className="individual_project_container"
-               description="My first foray into React. It integrates with a MongoDB database of my own make, storing chat history and allowing for private conversations, notifications, and login-free unique IDs."
+               description="My first foray into React. It integrates a MongoDB database of my own make, storing chat history and allowing for private conversations, notifications, and login-free unique IDs."
                imageLarge={chatApp}
                imageSmall={chatAppSmall}
                githubLink="https://github.com/KrisGoorhuis/chat-app"
@@ -162,7 +162,7 @@ let Projects = (props) => {
             <IndividualProject
                title="Secret Unity Things"
                className="individual_project_container"
-               description="Why my public GitHub repos are relatively stale. This private one is where I've been playing with C# and the Unity engine when time allows."
+               description="A hobby project I'd like to eventually sell and bring to Android. A private-for-now playground for C# and the Unity engine I jump back into when time allows."
                imageLarge={unityGame}
                imageSmall={unityGameSmall}
                technologies={['C#', 'Unity']}

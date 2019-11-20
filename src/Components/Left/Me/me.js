@@ -12,14 +12,16 @@ let Me = () => {
             </div>              
             <div className="me_placeholder"></div>
             <div className="me_segment">
-               The instant I finished my first little word-reversing script I knew how right they were. I've since been learning by doing, chewing through technologies from C#/Unity game dev to Python machine learning before returning home to web development.
+               The instant I finished my first little word-reversing script I knew how right they were. 
+               When my head isn't buried in the codesand, I enjoy learning French, talking about games more than playing them, 
+               learning to cook, and exploring the forest next door.
                <br></br>
                <br></br>
-               Now it's time to begin the career in earnest.
+               I'm eager to begin this career in earnest and find out first-hand what web technology is to become.
             </div>   
          </div>
          <div className="me_footer">
-            If you're enjoying the practical half of my resume and wand to see the theory half, &nbsp; 
+            If you're enjoying the practical half of my resume and wand to see the theory, &nbsp; 
             <a 
             href={testRes} 
             target="_blank" 

@@ -62,8 +62,8 @@ let Right = () => {
                   </div>
                   :
                   <div> 
-                     Thing about photographs. <br></br>
-                     It's a clever thing.
+                     Unlike my web work, I make no claims of quality here. <br></br>
+                     They sure are fun to take, though.
                   </div>
                }
             </div>

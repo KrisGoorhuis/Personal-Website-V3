@@ -21,19 +21,12 @@ let Site = () => {
                   Thanks for coming by!
                </div> 
                <div className="details_body">
-                  Of course, as an aspirant, this website is meant to be a demonstration of my web dev abilities. If not a bit of design. I hope you like it. 
+                  An SPA React app in two halves, this website is an exercise in intentful structure and organization, clean code, and a bit of design. I hope you like it. 
                   <br></br>
                   <br></br>
-                  Previous efforts brought a kitchen-sink approach. This one is about paring down but doing it well.
-                  
-                  {/* It sports automatic compiling and deployment via Babel and Webpack as packaged with the create-react-app. */}
-
-
+                  If I had to do it again, I'd make use of more semantic HTML (there may be some divs) and Redux, my new sister-favorite in front end tech.
                </div>
-               {/* <div className="details_technology">
-                  React
-                  Photoshop
-               </div>                */}
+
             </div>
          </div>
          <div className="site_bottom">

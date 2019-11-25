@@ -63,7 +63,6 @@ let Right = () => {
                   :
                   <div> 
                      Unlike my web work, I make no claims of quality here. <br></br>
-                     They sure are fun to take, though.
                   </div>
                }
             </div>

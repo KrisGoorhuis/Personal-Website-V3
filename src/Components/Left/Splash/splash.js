@@ -30,7 +30,7 @@ let Splash = () => {
          </div>
          <div className="intro_body">
             <p>
-               I’m a programmer, snowboarder,
+               I’m a web developer, snowboarder,
                hobbyist photographer & okay cook
                living out of the pacific northwest.
             </p>

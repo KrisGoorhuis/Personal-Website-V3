@@ -21,7 +21,7 @@ let Site = () => {
                   Thanks for coming by!
                </div> 
                <div className="details_body">
-                  An SPA React app in two halves, this website is an exercise in intentful structure and organization, clean code, and a bit of design. I hope you like it. 
+                  A React SPA in two halves, this website is an exercise in intentful structure and organization, clean code, and a bit of design. I hope you like it. 
                   <br></br>
                   <br></br>
                   If I had to do it again, I'd make use of more semantic HTML (there may be some divs) and Redux, my new sister-favorite in front end tech.

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './splash.css'
 
-
+import portrait from 'Assets/Images/portrait.jpg'
+import portraitSmall from 'Assets/Images/portrait.jpg'
 import forestPortrait from 'Assets/Images/portrait.jpg'
 
 let Splash = () => {

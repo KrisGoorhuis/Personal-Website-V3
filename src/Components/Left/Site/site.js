@@ -24,7 +24,7 @@ let Site = () => {
                   A React SPA in two halves, this website is an exercise in intentful structure and organization, clean code, and a bit of design. I hope you like it. 
                   <br></br>
                   <br></br>
-                  If I had to do it again, I'd make use of more semantic HTML (there may be some divs) and Redux, my new sister-favorite in front end tech.
+                  If I had to do it again, I'd make use of more semantic HTML (there may be a few divs) and Redux, my new sister-favorite in front end tech.
                </div>
 
             </div>

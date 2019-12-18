@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './splash.css'
 
-import portrait from 'Assets/Images/portrait.jpg'
-import portraitSmall from 'Assets/Images/portrait.jpg'
+
+import forestPortrait from 'Assets/Images/portrait.jpg'
 
 let Splash = () => {
    const [largeLoaded, setLargeLoaded] = useState(false)
@@ -13,13 +13,13 @@ let Splash = () => {
             <div className="portrait_container">
                <img
                   style={largeLoaded ? { display: 'none' } : {}}
-                  src={portrait}
+                  src={forestPortrait}
                   alt="portrait"
                   onLoad={() => { setLargeLoaded(true) }}
                />
                <img
                   style={largeLoaded ? {} : { display: 'none' }}
-                  src={portraitSmall}
+                  src={forestPortrait}
                   alt="portrait"
                />
             </div>
@@ -31,7 +31,7 @@ let Splash = () => {
          <div className="intro_body">
             <p>
                I’m a web developer, snowboarder,
-               hobbyist photographer & okay cook
+               hobbyist photographer & decent cook
                living out of the pacific northwest.
             </p>
             <p>I’d love to

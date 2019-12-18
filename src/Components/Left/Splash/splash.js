@@ -32,7 +32,7 @@ let Splash = () => {
          <div className="intro_body">
             <p>
                I’m a web developer, snowboarder,
-               hobbyist photographer & decent cook
+               hobbyist photographer & estranged coffee lover
                living out of the pacific northwest.
             </p>
             <p>I’d love to

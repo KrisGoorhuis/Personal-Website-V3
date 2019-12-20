@@ -19,6 +19,7 @@ import minesweeper from 'Assets/Images/minesweeper.png'
 import minesweeperSmall from 'Assets/Images/minesweeper-small.jpg'
 import movieBuddy from 'Assets/Images/movie-buddy.png'
 import gameOfLife from 'Assets/Images/game-of-life.png'
+import dashboard from 'Assets/Images/dashboard.png'
 
 import githubMark from 'Assets/Images/github-mark.png'
 import newWindowIcon from 'Assets/Images/open-link-white.png'
@@ -140,14 +141,24 @@ let Projects = (props) => {
                technologies={['React.js', 'Redux', 'API', 'AJAX']}
             />
             <IndividualProject
-               title="Chat App"
+               title="Minesweeper"
                className="individual_project_container"
-               description="My first foray into React. It integrates a MongoDB database of my own make, storing chat history and allowing for private conversations, notifications, and login-free unique IDs."
-               imageLarge={chatApp}
-               imageSmall={chatAppSmall}
-               githubLink="https://github.com/KrisGoorhuis/chat-app"
-               liveSite="https://krisg-chat-app.herokuapp.com/"
-               technologies={['React.js', 'REST', 'Node.js', 'MongoDB']}
+               description="Full replication in C# and Windows Presentation Foundation. Features customizable area and mine density, flagging, and smiley faces."
+               imageLarge={minesweeper}
+               imageSmall={minesweeperSmall}
+               githubLink="https://github.com/KrisGoorhuis/WPF-Minesweeper"
+               liveSite=""
+               technologies={['C#', 'WPF']}
+            />
+            <IndividualProject
+               title="Dashboard to Nerdiness"
+               className="individual_project_container"
+               description="A poorly styled but technically noteworthy content aggregation site. Collates data from different APIs, in different formats, into a single iterable array, and persistently stores preferences."
+               imageLarge={dashboard}
+               imageSmall={dashboard}
+               githubLink="https://github.com/KrisGoorhuis/dashboard-to-nerdiness"
+               liveSite="https://dashboard-to-nerdiness.herokuapp.com/"
+               technologies={['React.js', 'Redux', 'API', 'AJAX']}
             />
             <IndividualProject
                title="Beer Style Guide"
@@ -168,6 +179,16 @@ let Projects = (props) => {
                technologies={['C#', 'Unity']}
             />
             <IndividualProject
+               title="Chat App"
+               className="individual_project_container"
+               description="My first foray into React. It integrates a MongoDB database of my own make, storing chat history and allowing for private conversations, notifications, and login-free unique IDs."
+               imageLarge={chatApp}
+               imageSmall={chatAppSmall}
+               githubLink="https://github.com/KrisGoorhuis/chat-app"
+               liveSite="https://krisg-chat-app.herokuapp.com/"
+               technologies={['React.js', 'REST', 'Node.js', 'MongoDB']}
+            />       
+            <IndividualProject
                title="Temperature Data Visualization"
                className="individual_project_container"
                description="Another colossal JSON object pulled apart and mapped (a favorite thing of mine). This time presented with the D3 visualization library."
@@ -177,7 +198,6 @@ let Projects = (props) => {
                liveSite="https://krisg-data-visualization-temp.herokuapp.com/"
                technologies={['D3.js']}
             />
-
             <IndividualProject
                title="Copy of The Eddy's old site"
                className="individual_project_container"
@@ -187,16 +207,6 @@ let Projects = (props) => {
                githubLink="https://github.com/KrisGoorhuis/the-eddy-copy"
                liveSite="https://krisg-theeddy-practicecopy.herokuapp.com/"
                technologies={['SASS']}
-            />
-            <IndividualProject
-               title="Minesweeper"
-               className="individual_project_container"
-               description="C# and Windows Presentation Foundation. Perhaps desktop applications are in the further future. Unity is more conducive to game dev than WPF."
-               imageLarge={minesweeper}
-               imageSmall={minesweeperSmall}
-               githubLink="https://github.com/KrisGoorhuis/WPF-Minesweeper"
-               liveSite=""
-               technologies={['C#', 'WPF']}
             />
             <IndividualProject
                title="Snake Game"

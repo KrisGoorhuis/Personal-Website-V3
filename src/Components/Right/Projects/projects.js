@@ -151,7 +151,7 @@ let Projects = (props) => {
                technologies={['C#', 'WPF']}
             />
             <IndividualProject
-               title="Dashboard to Nerdiness"
+               title="Dashboard to Nerdiness (WIP)"
                className="individual_project_container"
                description="A poorly styled but technically noteworthy content aggregation site. Collates data from different APIs, in different formats, into a single iterable array, and persistently stores preferences."
                imageLarge={dashboard}

@@ -12,14 +12,14 @@ let Me = () => {
             </div>              
             <div className="me_placeholder"></div>
             <div className="me_segment">
-               The instant I finished my first little word-reversing script I knew how right they were. Now I specialize in React & Redux when cool new technology isn't luring me away.
+               The instant I finished my first little word-reversing script I knew how right they were. Now I work mostly in React & Redux with a specific love for logic engineering and APIs. When cool new technology or isn't luring me away, that is.
                <br></br>
                <br></br>
                When my head isn't buried in the code-sand, I enjoy learning French, writing about games more than playing them, 
                sharpening my kitchen skills, and exploring the forest next door.
                <br></br>
                <br></br>
-               I'm eager to begin this career in earnest and find out first-hand what web technology is to become.
+               I'm eager to begin this career in earnest and find out, first-hand, all that web technology is to become.
             </div>   
          </div>
          <div className="me_footer">

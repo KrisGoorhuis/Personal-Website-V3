@@ -40,10 +40,10 @@ let Splash = () => {
                <a 
                   className="redtext" 
                   href="mailto:krisgoorhuis@gmail.com">
-                  &nbsp;Github.
+                  &nbsp;Github,
                </a>
                <br></br>
-               Or perhaps 
+               or perhaps 
                <a 
                   className="redtext" 
                   href="mailto:krisgoorhuis@gmail.com">

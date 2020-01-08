@@ -39,7 +39,7 @@ let Splash = () => {
                Check out my work on 
                <a 
                   className="redtext" 
-                  href="mailto:krisgoorhuis@gmail.com">
+                  href="https://github.com/KrisGoorhuis">
                   &nbsp;Github,
                </a>
                <br></br>
